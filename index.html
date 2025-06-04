@@ -7,7 +7,7 @@
     body { margin: 0; font-family: Arial, sans-serif; background: white; color: #333; }
     header, section, footer { padding: 40px 20px; max-width: 1200px; margin: auto; }
     h1, h2, h3 { color: #2c3e50; }
-    .btn { background: #2c3e50; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; }.service-times, .location, .watch-online, .programs, .testimonials, .footer-links {
+    .btn { background: black; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 40px; display: inline-block; }.service-times, .location, .watch-online, .programs, .testimonials, .footer-links {
   margin-top: 40px;
 }
 
@@ -84,7 +84,7 @@ display: flex;
 }
 .top{
   text-align: center;
-  background-image: url(zcolour.jpg) ;
+  background-image: url(First.jpg) ;
   padding: 200px 20px;
   color: white;
 }
@@ -98,6 +98,7 @@ display: flex;
    padding: 40px;
    border: 8px;
    width 320px;
+   color: white;
    
 
 }
@@ -116,6 +117,14 @@ display: flex;
 }
 .sermons{
   text-align: center;
+}
+.icons{
+
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1); 
+  margin: 10px;
+  transition: 0.3s ease;
 }
 
   </style>
@@ -142,23 +151,23 @@ display: flex;
 <div class="top">
    <h1 style="color: white;">Welcome to Chapel of Transfiguration <br>(COTGlobal)</h1>
     <p>My Father’s House, where God is building a people of Power.</p>
-    <a href="#" class="btn">Learn more</a>
+    <a href="#" class="btn" style="background-color:  #5b57f0;"><strong>Learn more →</strong></a>
 </div>
       
   <div class="three-column-section">
   <div class="column">
     <i class="icon">🕒</i>
-    <h3>Service Times</h3>
+    <h3 style="color: white;">Service Times</h3>
     <p>We meet in person & online on Wednesdays at 7pm and Sundays at 7am, 9am, 12pm & 2pm.</p>
   </div>
   <div class="column">
     <i class="icon">📺</i>
-    <h3>Watch Online</h3>
+    <h3 style="color: white;">Watch Online</h3>
     <p>Click the link below to watch past sermons or join us live online.</p>
   </div>
   <div class="column">
     <i class="icon">📍</i>
-    <h3>Join Us in Person</h3>
+    <h3 style="color: white;">Join Us in Person</h3>
     <p>We meet in person at 1, Chapel of Transfiguration Street, Ikorodu, Lagos, Nigeria.</p>
   </div>
 </div>
@@ -172,7 +181,15 @@ display: flex;
     <div class="videos">
       
       <div class="video">
-        <img src="Screenshot (21).png" alt=""  width="110%" height="110%">
+          <iframe 
+    width="1200px" 
+    height="600px" 
+    src="https://www.youtube.com/embed/zoD40rCvBrY?si=SyUgjeMtIJrZ1iqq" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
       </div>
     </div>
   </section> 
@@ -188,14 +205,14 @@ display: flex;
     <div class="prog_bottom">
       <div class="card">
 <p>Upcoming Event<br>
-      <h3><strong>Encounter 6.0</strong></h3><br>
+      <h3 style="color: white;"><strong>Encounter 6.0</strong></h3><br>
       Lorem, ipsum dolor sit amet, <br>
        consectetur adipisicing elit. Nisi, del  <br> <br>
       Friday 7:00pm<br> <br>
       1, Chapel of Transfiguration Street, Ikorodu, Lagos. Nigeria.</p>
-    <a href="#" class="btn">Learn more</a>
+    <a href="#" class="btn"> <strong>Learn more →</strong></a>
       </div>
-      <img src="Image.jpg" alt="" style=" width: 600px; height: 360px;">
+      <img src="Second.jpg" alt="" style=" width: 600px; height: 360px;">
   </div>
     
   </section>  <section class="testimonials">
@@ -225,12 +242,12 @@ display: flex;
   </section>
   
   <footer class="Footer">
-    <h2>Connect with us on all social media platforms</h2>
-    <p>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.</p>
-    <img src="instagram.svg" alt="" width="40" height="40">
-<img src="facebook.svg" alt="" width="40" height="40">
-<img src="twitter.svg" alt="" width="40" height="40">
-<img src="youtube.svg" alt="" width="40" height="40">
+    <h2 style="color: white;">Connect with us on all social media platforms</h2>
+    <p style="color: white;">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.</p>
+    <img class="icons" src="instagram.svg" alt="" width="40" height="40">
+<img class="icons" src="facebook.svg" alt="" width="40" height="40">
+<img class="icons" src="twitter.svg" alt="" width="40" height="40">
+<img class="icons" src="youtube.svg" alt="" width="40" height="40">
 
    
   </footer>
